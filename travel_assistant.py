@@ -3,7 +3,7 @@ import time
 from google import genai
 from dotenv import load_dotenv
 from rich.console import Console
-
+load_dotenv()
 console = Console()
 
 
