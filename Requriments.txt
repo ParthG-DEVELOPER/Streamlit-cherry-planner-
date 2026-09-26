@@ -1,4 +1,0 @@
-streamlit
-google-genai
-rich
-python-dotenv
