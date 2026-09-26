@@ -8,6 +8,11 @@ console = Console()
 
 
 client = genai.Client()
+st.set_page_config(
+    page_title=" Travel Assistant",
+    page_icon="🍒", # Optional: accepts emojis, shortcodes, or paths to local images
+    layout="wide"    # Optional: "centered" or "wide"
+)
 st.markdown(
     """
     <style>
